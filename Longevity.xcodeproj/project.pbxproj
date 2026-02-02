@@ -19,6 +19,22 @@
 		APP010 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC009; };
 		APP011 /* ScoringEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC010; };
 		APP012 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC011; };
+		/* v1.0 Files */
+		APP013 /* CGMManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC012; };
+		APP014 /* OCRService.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC013; };
+		APP015 /* BiologicalAgeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC014; };
+		APP016 /* FoodAnalysisService.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC015; };
+		APP017 /* GlucoseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC016; };
+		APP018 /* LabUploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC017; };
+		APP019 /* BiologicalAgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC018; };
+		APP020 /* NutritionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC019; };
+		/* v2.0 Files */
+		APP021 /* ExperimentEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC020; };
+		APP022 /* WatchSyncManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC021; };
+		APP023 /* Zone2Coach.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC022; };
+		APP024 /* ExperimentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC023; };
+		APP025 /* LongevityHorizonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC024; };
+		/* Watch App Files */
 		WATCH001 /* LongevityWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = WSRC001; };
 		WATCH002 /* WatchContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = WSRC002; };
 		WATCH003 /* ReadinessComplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = WSRC003; };
@@ -38,8 +54,25 @@
 		SRC009 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		SRC010 /* ScoringEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoringEngine.swift; sourceTree = "<group>"; };
 		SRC011 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		/* v1.0 File References */
+		SRC012 /* CGMManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGMManager.swift; sourceTree = "<group>"; };
+		SRC013 /* OCRService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRService.swift; sourceTree = "<group>"; };
+		SRC014 /* BiologicalAgeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiologicalAgeCalculator.swift; sourceTree = "<group>"; };
+		SRC015 /* FoodAnalysisService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodAnalysisService.swift; sourceTree = "<group>"; };
+		SRC016 /* GlucoseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoseView.swift; sourceTree = "<group>"; };
+		SRC017 /* LabUploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabUploadView.swift; sourceTree = "<group>"; };
+		SRC018 /* BiologicalAgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiologicalAgeView.swift; sourceTree = "<group>"; };
+		SRC019 /* NutritionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionView.swift; sourceTree = "<group>"; };
+		/* v2.0 File References */
+		SRC020 /* ExperimentEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperimentEngine.swift; sourceTree = "<group>"; };
+		SRC021 /* WatchSyncManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSyncManager.swift; sourceTree = "<group>"; };
+		SRC022 /* Zone2Coach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zone2Coach.swift; sourceTree = "<group>"; };
+		SRC023 /* ExperimentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperimentView.swift; sourceTree = "<group>"; };
+		SRC024 /* LongevityHorizonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongevityHorizonView.swift; sourceTree = "<group>"; };
+		/* Resources and Entitlements */
 		RES001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ENT001 /* Longevity.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Longevity.entitlements; sourceTree = "<group>"; };
+		/* Watch App References */
 		WPROD001 /* Longevity Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Longevity Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		WSRC001 /* LongevityWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongevityWatchApp.swift; sourceTree = "<group>"; };
 		WSRC002 /* WatchContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchContentView.swift; sourceTree = "<group>"; };
@@ -89,6 +122,12 @@
 				SRC007 /* SupplementView.swift */,
 				SRC008 /* BiomarkerView.swift */,
 				SRC009 /* SettingsView.swift */,
+				SRC016 /* GlucoseView.swift */,
+				SRC017 /* LabUploadView.swift */,
+				SRC018 /* BiologicalAgeView.swift */,
+				SRC019 /* NutritionView.swift */,
+				SRC023 /* ExperimentView.swift */,
+				SRC024 /* LongevityHorizonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -107,6 +146,13 @@
 				SRC005 /* HealthKitManager.swift */,
 				SRC010 /* ScoringEngine.swift */,
 				SRC011 /* DataStore.swift */,
+				SRC012 /* CGMManager.swift */,
+				SRC013 /* OCRService.swift */,
+				SRC014 /* BiologicalAgeCalculator.swift */,
+				SRC015 /* FoodAnalysisService.swift */,
+				SRC020 /* ExperimentEngine.swift */,
+				SRC021 /* WatchSyncManager.swift */,
+				SRC022 /* Zone2Coach.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -211,6 +257,19 @@
 				APP010,
 				APP011,
 				APP012,
+				APP013,
+				APP014,
+				APP015,
+				APP016,
+				APP017,
+				APP018,
+				APP019,
+				APP020,
+				APP021,
+				APP022,
+				APP023,
+				APP024,
+				APP025,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +421,8 @@
 				INFOPLIST_KEY_CFBundleDisplayName = Longevity;
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "Longevity needs access to your health data to calculate readiness scores and track your wellness metrics.";
 				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Longevity can save your logged data to Apple Health for a unified health record.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Longevity uses the camera to scan food for nutrition analysis.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Longevity needs photo access to analyze food images and lab reports.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -392,6 +453,8 @@
 				INFOPLIST_KEY_CFBundleDisplayName = Longevity;
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "Longevity needs access to your health data to calculate readiness scores and track your wellness metrics.";
 				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Longevity can save your logged data to Apple Health for a unified health record.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Longevity uses the camera to scan food for nutrition analysis.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Longevity needs photo access to analyze food images and lab reports.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
